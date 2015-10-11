@@ -1,4 +1,5 @@
 # react-flux
+
 This is a simple application using Flux architecture.
 
 Installation
@@ -16,5 +17,4 @@ Installation
 Access the page http://localhost:8000
 
 Thanks!!!
-
 
