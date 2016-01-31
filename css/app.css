@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+}
+
+body
+{
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+
+    margin: 0;
+    padding: 0;
+
+    color: #2c3e50;
+    background: #e2e2e2;
+}
+
+body *
+{
+    box-sizing: border-box;
+}
+.tile_container{
+	width:100%;
+}
+.tile{
+    float: left;
+    margin: 20px;
+}
+.sub__info{
+	clear: both;
+	margin: 20px;
+}

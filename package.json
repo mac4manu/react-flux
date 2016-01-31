@@ -1,16 +1,18 @@
 {
-  "name": "flux-pricing",
+  "name": "flux-example",
   "version": "0.0.1",
-  "description": "Pricing component with flux",
+  "description": "Book search component with flux",
   "main": "js/app.js",
   "dependencies": {
     "flux": "^2.0.0",
+    "object-assign": "^4.0.1",
     "react": "^0.12.0",
     "underscore": "^1.7.0"
   },
   "devDependencies": {
     "browserify": "~6.2.0",
     "envify": "~3.0.0",
+    "jquery": "^2.2.0",
     "react": "^0.12.0",
     "reactify": "^0.15",
     "watchify": "~2.1.0"
@@ -19,7 +21,7 @@
     "start": "watchify -o js/bundle.js -v -d .",
     "build": "browserify . | uglifyjs -cm > js/bundle.min.js"
   },
-  "author": "Ken Wheeler",
+  "author": "Manu",
   "browserify": {
     "transform": [
       "reactify",
